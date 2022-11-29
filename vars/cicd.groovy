@@ -19,3 +19,4 @@ def delivery(path1)
 {
    deploy adapters: [tomcat9(credentialsId: 'baefdbc7-9a7a-450b-b42b-d9af879cb8ea', path: '', url: 'http://172.31.85.137:8080')], contextPath: "${path1}", war: '**/*.war'
 }
+hello my name is dhiraj
